@@ -7,34 +7,33 @@ class Data:
 Hey {}, 
 Welcome to {}
 
-You Can Use This Bot To Generate Pyrogram & Telethon String Session. Use Below Buttons To Operate !
+ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ʙᴏᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ & ᴛᴇʟᴇᴛʜᴏɴ sᴛʀɪɴɢ sᴇssɪᴏɴ. ᴜsᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴏᴘᴇʀᴀᴛᴇ
 
-**Made With Love By @Mr_Agora and @Agora_Robots ❤️**
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("💫 START GENERATING AGORA SESSION 💫", callback_data="generate")],
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
+        [InlineKeyboardButton("• sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ •", callback_data="generate")],
+        [InlineKeyboardButton(text="• ʜᴏᴍᴇ •", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("💫 START GENERATING AGORA SESSION 💫", callback_data="generate")]
+        [InlineKeyboardButton("• sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ • ", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("💫 START GENERATING AGORA SESSION 💫", callback_data="generate")],
+        [InlineKeyboardButton("• sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ • ", callback_data="generate")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("About 🚀", callback_data="about")
+            InlineKeyboardButton("How to Use", callback_data="help"),
+            InlineKeyboardButton("About", callback_data="about")
         ],
-        [InlineKeyboardButton("❣️ Contact Owner ❣️", url="https://t.me/mr_agora")],
+        [InlineKeyboardButton("• ᴏᴡɴᴇʀ •", url="https://t.me/OFFICIALHACKERERA")],
     ]
 
     # Help Message
     HELP = """
-✨ **Available Commands** ✨
+  **Available Commands** 
 
 /start - Start The Bot
 /help - Help Message
@@ -48,8 +47,6 @@ You Can Use This Bot To Generate Pyrogram & Telethon String Session. Use Below B
 **About This Bot** 
 
 A Telegram Bot To Generate Pyrogram & Telethon String Sessions. 
-
-Made With ❤ By @Mr_Agora and @Agora_Robots
 
 Sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/Agora_Robots)
 
