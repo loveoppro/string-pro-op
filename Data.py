@@ -6,10 +6,7 @@ class Data:
     START = """
 Hey {}, 
 Welcome to {}
-
-ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ʙᴏᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ & ᴛᴇʟᴇᴛʜᴏɴ sᴛʀɪɴɢ sᴇssɪᴏɴ. ᴜsᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴏᴘᴇʀᴀᴛᴇ
-
-    """
+[➼](https://te.legra.ph/file/4f730af88f1d7ec343386.jpg)ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ʙᴏᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ & ᴛᴇʟᴇᴛʜᴏɴ sᴛʀɪɴɢ sᴇssɪᴏɴ. ᴜsᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴏᴘᴇʀᴀᴛᴇ"""
 
     # Home Button
     home_buttons = [
@@ -25,15 +22,15 @@ Welcome to {}
     buttons = [
         [InlineKeyboardButton("• sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ • ", callback_data="generate")],
         [
-            InlineKeyboardButton("How to Use", callback_data="help"),
-            InlineKeyboardButton("About", callback_data="about")
+            InlineKeyboardButton("• ʜᴏᴡ ᴛᴏ ᴜsᴇ •", callback_data="help"),
+            InlineKeyboardButton("• ᴀʙᴏᴜᴛ •", callback_data="about")
         ],
         [InlineKeyboardButton("• ᴏᴡɴᴇʀ •", url="https://t.me/OFFICIALHACKERERA")],
     ]
 
     # Help Message
     HELP = """
-  **Available Commands** 
+✨ **Available Commands** ✨
 
 /start - Start The Bot
 /help - Help Message
@@ -47,6 +44,8 @@ Welcome to {}
 **About This Bot** 
 
 A Telegram Bot To Generate Pyrogram & Telethon String Sessions. 
+
+Made With ❤ By @Mr_Agora and @Agora_Robots
 
 Sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/Agora_Robots)
 
