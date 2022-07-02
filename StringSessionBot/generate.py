@@ -26,12 +26,15 @@ from telethon.errors import (
 @Client.on_message(filters.private & ~filters.forwarded & filters.command('generate'))
 async def main(_, msg):
     await msg.reply(
-        "Please Choose Which String Session You Want To Generate 😇",
-        reply_markup=InlineKeyboardMarkup([[
-            InlineKeyboardButton("🔰 Telethon - For Userbot 🔰", callback_data="telethon")],
+        "ᴘʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴡʜɪᴄʜ sᴛʀɪɴɢ sᴇssɪᴏɴ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ",
+        reply_markup=InlineKeyboardMarkup(
           [
-            InlineKeyboardButton("⚜️ Pyrogram - For Musicbot ⚜️", callback_data="pyrogram")
-        ]])
+          [
+            InlineKeyboardButton("• ᴛᴇʟᴇᴛʜᴏɴ •", callback_data="telethon")
+            InlineKeyboardButton("• ᴘʏʀᴏɢʀᴀᴍ •", callback_data="pyrogram")
+
+          ]
+       )
     )
 
 
