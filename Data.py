@@ -19,12 +19,15 @@ class Data:
     buttons = [
         [
          InlineKeyboardButton("• sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ • ", callback_data="generate"),
-        
         ],
         [
-            InlineKeyboardButton("• owner •", url="https://t.me/OFFICIALHACKERERA")
+           InlineKeyboardButton("How to Use ", callback_data="help"),
+            InlineKeyboardButton("About", callback_data="about")
 
-            InlineKeyboardButton("• support •", url="https://t.me/OFFICIALHACKERERA")
+         ],
+
+        [
+            InlineKeyboardButton("• owner •", url="https://t.me/OFFICIALHACKERERA")
         ]
     ]
 
