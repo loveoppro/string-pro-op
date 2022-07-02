@@ -21,15 +21,11 @@ class Data:
          InlineKeyboardButton("• sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ • ", callback_data="generate"),
         ],
         [
-           InlineKeyboardButton("• ᴄʜᴀɴɴᴇʟ •", url="https://t.me/Broken_Heart73"),
-            InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/HEPPYLIFI")
-
-         ],
-
-        [
-            InlineKeyboardButton("• owner •", url="https://t.me/OFFICIALHACKERERA")
+          InlineKeyboardButton("• ᴄʜᴀɴɴᴇʟ •", url="https://t.me/Broken_Heart73"),
+          InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/HEPPYLIFI"),
+          InlineKeyboardButton("• ᴏᴡɴᴇʀ  •", url="https://t.me/OFFICIALHACKERERA")
         ]
-    ]
+        ]
 
 
 
