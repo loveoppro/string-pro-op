@@ -22,8 +22,9 @@ class Data:
         
         ],
         [
-            InlineKeyboardButton("• ᴏᴡɴᴇʀ •", url="https://t.me/OFFICIALHACKERERA")
-           
+            InlineKeyboardButton("• owner •", url="https://t.me/OFFICIALHACKERERA")
+
+            InlineKeyboardButton("• support •", url="https://t.me/OFFICIALHACKERERA")
         ]
     ]
 
