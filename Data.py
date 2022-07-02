@@ -20,38 +20,16 @@ Welcome to {}
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("• sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ • ", callback_data="generate")],
         [
-            InlineKeyboardButton("• ʜᴏᴡ ᴛᴏ ᴜsᴇ •", callback_data="help"),
-            InlineKeyboardButton("• ᴀʙᴏᴜᴛ •", callback_data="about")
+         InlineKeyboardButton("• sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ • ", callback_data="generate"),
+        
         ],
-        [InlineKeyboardButton("• ᴏᴡɴᴇʀ •", url="https://t.me/OFFICIALHACKERERA")],
+        [
+            InlineKeyboardButton("• ᴏᴡɴᴇʀ •", url="https://t.me/OFFICIALHACKERERA")
+           
+        ]
     ]
 
-    # Help Message
-    HELP = """
-✨ **Available Commands** ✨
 
-/start - Start The Bot
-/help - Help Message
-/generate - Generate String Session
-/cancel - Cancel The Process
-/about - About Bot
-"""
 
-    # About Message
-    ABOUT = """
-**About This Bot** 
-
-A Telegram Bot To Generate Pyrogram & Telethon String Sessions. 
-
-Made With ❤ By @Mr_Agora and @Agora_Robots
-
-Sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/Agora_Robots)
-
-Fʀᴀᴍᴇᴡᴏʀᴋ : [ᴘʏʀᴏɢʀᴀᴍ](docs.pyrogram.org)
-
-Lᴀɴɢᴜᴀɢᴇ : [ᴘʏᴛʜᴏɴ](www.python.org)
-
-Dᴇᴠᴇʟᴏᴘᴇʀ : [ΛႺՕ𝖱Λ](https://t.me/mr_agora)
-    """
+ 
