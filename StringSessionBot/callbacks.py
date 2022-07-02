@@ -39,17 +39,16 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text="**Here's How To Use Me**\n" + Data.HELP,
+            text="**Here's How to use me**\n" + Data.HELP,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.home_buttons),
         )
     elif query == "generate":
         await callback_query.message.reply(
-            "Please Choose Which Session You Want To Generate",
+            "Please choose the python library you want to generate string session for",
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("🔰 Telethon - For Userbot 🔰", callback_data="telethon")],
-              [
-                InlineKeyboardButton("⚜️ Pyrogram - For Musicbot ⚜️", callback_data="pyrogram")
+                InlineKeyboardButton("ᴘʏʀᴏɢʀᴀᴍ", callback_data="pyrogram"),
+                InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ", callback_data="telethon")
             ]])
         )
     elif query in ["pyrogram", "telethon"]:
@@ -65,7 +64,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             await callback_query.message.reply(ERROR_MESSAGE.format(str(e)))
 
 
-ERROR_MESSAGE = "Oops! An Exception Occurred! \n\n**Error** : {} " \
-            "\n\nPlease Contact @Mr_Agora or @Agora_Robots If This Message Doesn't Contain Any " \
-            "Sensitive Information And If You Want To Report This As" \
-            "Error Message \nThis Is Just An Error Message Which Is Not Logged In Our Database"
+ERROR_MESSAGE = "Oops! An exception occurred! \n\n**Error** : {} " \
+            "\n\nPlease visit @OFFICIALHACKERERA if this message doesn't contain any " \
+            "sensitive information and you if want to report this as " \
+            "this error message is not being logged by us!"
