@@ -30,7 +30,7 @@ async def main(_, msg):
         reply_markup=InlineKeyboardMarkup(
           [
           [
-            InlineKeyboardButton("• ᴛᴇʟᴇᴛʜᴏɴ •", callback_data="telethon")
+            InlineKeyboardButton("• ᴛᴇʟᴇᴛʜᴏɴ •", callback_data="telethon"),
             InlineKeyboardButton("• ᴘʏʀᴏɢʀᴀᴍ •", callback_data="pyrogram")
 
           ]
